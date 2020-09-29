@@ -1,0 +1,6 @@
+run.config:
+    engine: nodejs
+    fs_watch: true
+    nanobox dns add local react.local
+    nanobox evar add local HOST=0.0.0.0
+    nanobox run yarn start
